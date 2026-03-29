@@ -25,6 +25,11 @@
   },
   "content_scripts": [
     {
+      "matches": ["*://*.x.com/*", "*://*.twitter.com/*"],
+      "js": ["shared/redirect-early.js"],
+      "run_at": "document_start"
+    },
+    {
       "matches": ["<all_urls>"],
       "js": ["shared/url-rewriter.js", "shared/content.js"],
       "run_at": "document_idle"

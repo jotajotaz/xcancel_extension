@@ -1,9 +1,5 @@
 "use strict";
 
-// Redirect direct navigations to x.com/twitter.com → xcancel.com
-// Uses webNavigation as primary mechanism (more reliable than declarativeNetRequest
-// in managed/corporate Chrome profiles).
-
 const X_HOSTS = ["x.com", "www.x.com", "twitter.com", "www.twitter.com"];
 
 const EXCLUDED_PATH_PATTERNS = [
@@ -11,6 +7,7 @@ const EXCLUDED_PATH_PATTERNS = [
   /^\/[^/]+\/article(\/|$)/i,
 ];
 
+// Fallback redirect via webNavigation for direct navigations
 chrome.webNavigation.onBeforeNavigate.addListener(
   (details) => {
     if (details.frameId !== 0) return;
