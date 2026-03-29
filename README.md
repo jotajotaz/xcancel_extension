@@ -67,7 +67,7 @@ Links on other websites (e.g. someone shares an x.com link on Reddit) are rewrit
 
 ## Contributing
 
-This is a vibe-coded project. Pull requests are not accepted, but forks are encouraged.
+This is a vibe-coded personal project. Pull requests are not accepted, but forks are encouraged.
 
 ## Development
 
