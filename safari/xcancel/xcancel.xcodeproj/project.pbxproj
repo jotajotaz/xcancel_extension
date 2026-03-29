@@ -7,82 +7,82 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D58815B22F7966CB00B47B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815B12F7966CB00B47B19 /* AppDelegate.swift */; };
-		D58815B42F7966CB00B47B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815B32F7966CB00B47B19 /* SceneDelegate.swift */; };
-		D58815B72F7966CB00B47B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */; };
-		D58815BA2F7966CB00B47B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815B82F7966CB00B47B19 /* Main.storyboard */; };
-		D58815C32F7966CB00B47B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815C22F7966CB00B47B19 /* AppDelegate.swift */; };
-		D58815C62F7966CB00B47B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815C42F7966CB00B47B19 /* Main.storyboard */; };
-		D58815CD2F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D58815D72F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D58815D62F7966CB00B47B19 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D58815DC2F7966CB00B47B19 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D58815A12F7966CB00B47B19 /* Main.html */; };
-		D58815DD2F7966CB00B47B19 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D58815A12F7966CB00B47B19 /* Main.html */; };
-		D58815DE2F7966CB00B47B19 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815A32F7966CB00B47B19 /* Icon.png */; };
-		D58815DF2F7966CB00B47B19 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815A32F7966CB00B47B19 /* Icon.png */; };
-		D58815E02F7966CB00B47B19 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D58815A42F7966CB00B47B19 /* Style.css */; };
-		D58815E12F7966CB00B47B19 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D58815A42F7966CB00B47B19 /* Style.css */; };
-		D58815E22F7966CB00B47B19 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815A52F7966CB00B47B19 /* Script.js */; };
-		D58815E32F7966CB00B47B19 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815A52F7966CB00B47B19 /* Script.js */; };
-		D58815E42F7966CB00B47B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A62F7966CB00B47B19 /* ViewController.swift */; };
-		D58815E52F7966CB00B47B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A62F7966CB00B47B19 /* ViewController.swift */; };
-		D58815E62F7966CB00B47B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58815A72F7966CB00B47B19 /* Assets.xcassets */; };
-		D58815E72F7966CB00B47B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58815A72F7966CB00B47B19 /* Assets.xcassets */; };
-		D58815E82F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */; };
-		D58815E92F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */; };
-		D58816032F7966CB00B47B19 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FB2F7966CB00B47B19 /* icon-16.png */; };
-		D58816042F7966CB00B47B19 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FC2F7966CB00B47B19 /* background.js */; };
-		D58816052F7966CB00B47B19 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FD2F7966CB00B47B19 /* url-rewriter.js */; };
-		D58816062F7966CB00B47B19 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FE2F7966CB00B47B19 /* icon-48.png */; };
-		D58816072F7966CB00B47B19 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D58815FF2F7966CB00B47B19 /* manifest.json */; };
-		D58816082F7966CB00B47B19 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D58816002F7966CB00B47B19 /* content.js */; };
-		D58816092F7966CB00B47B19 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816012F7966CB00B47B19 /* icon-128.png */; };
-		D588160A2F7966CB00B47B19 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816022F7966CB00B47B19 /* icon-32.png */; };
-		D588160B2F7966CB00B47B19 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FB2F7966CB00B47B19 /* icon-16.png */; };
-		D588160C2F7966CB00B47B19 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FC2F7966CB00B47B19 /* background.js */; };
-		D588160D2F7966CB00B47B19 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FD2F7966CB00B47B19 /* url-rewriter.js */; };
-		D588160E2F7966CB00B47B19 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FE2F7966CB00B47B19 /* icon-48.png */; };
-		D588160F2F7966CB00B47B19 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D58815FF2F7966CB00B47B19 /* manifest.json */; };
-		D58816102F7966CB00B47B19 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D58816002F7966CB00B47B19 /* content.js */; };
-		D58816112F7966CB00B47B19 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816012F7966CB00B47B19 /* icon-128.png */; };
-		D58816122F7966CB00B47B19 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816022F7966CB00B47B19 /* icon-32.png */; };
+		D519A8812F797DEA00B05C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8802F797DEA00B05C30 /* AppDelegate.swift */; };
+		D519A8832F797DEA00B05C30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8822F797DEA00B05C30 /* SceneDelegate.swift */; };
+		D519A8862F797DEA00B05C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D519A8842F797DEA00B05C30 /* LaunchScreen.storyboard */; };
+		D519A8892F797DEA00B05C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D519A8872F797DEA00B05C30 /* Main.storyboard */; };
+		D519A8922F797DEA00B05C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8912F797DEA00B05C30 /* AppDelegate.swift */; };
+		D519A8952F797DEA00B05C30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D519A8932F797DEA00B05C30 /* Main.storyboard */; };
+		D519A89C2F797DEA00B05C30 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D519A89B2F797DEA00B05C30 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D519A8A62F797DEA00B05C30 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D519A8A52F797DEA00B05C30 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D519A8AB2F797DEA00B05C30 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D519A8702F797DE900B05C30 /* Main.html */; };
+		D519A8AC2F797DEA00B05C30 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D519A8702F797DE900B05C30 /* Main.html */; };
+		D519A8AD2F797DEA00B05C30 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8722F797DE900B05C30 /* Icon.png */; };
+		D519A8AE2F797DEA00B05C30 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8722F797DE900B05C30 /* Icon.png */; };
+		D519A8AF2F797DEA00B05C30 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D519A8732F797DE900B05C30 /* Style.css */; };
+		D519A8B02F797DEA00B05C30 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D519A8732F797DE900B05C30 /* Style.css */; };
+		D519A8B12F797DEA00B05C30 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8742F797DE900B05C30 /* Script.js */; };
+		D519A8B22F797DEA00B05C30 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8742F797DE900B05C30 /* Script.js */; };
+		D519A8B32F797DEA00B05C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8752F797DE900B05C30 /* ViewController.swift */; };
+		D519A8B42F797DEA00B05C30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8752F797DE900B05C30 /* ViewController.swift */; };
+		D519A8B52F797DEA00B05C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D519A8762F797DEA00B05C30 /* Assets.xcassets */; };
+		D519A8B62F797DEA00B05C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D519A8762F797DEA00B05C30 /* Assets.xcassets */; };
+		D519A8B72F797DEA00B05C30 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8782F797DEA00B05C30 /* SafariWebExtensionHandler.swift */; };
+		D519A8B82F797DEA00B05C30 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D519A8782F797DEA00B05C30 /* SafariWebExtensionHandler.swift */; };
+		D519A8D22F797DEA00B05C30 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CA2F797DEA00B05C30 /* icon-16.png */; };
+		D519A8D32F797DEA00B05C30 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CB2F797DEA00B05C30 /* url-rewriter.js */; };
+		D519A8D42F797DEA00B05C30 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CC2F797DEA00B05C30 /* icon-48.png */; };
+		D519A8D52F797DEA00B05C30 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CD2F797DEA00B05C30 /* manifest.json */; };
+		D519A8D62F797DEA00B05C30 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CE2F797DEA00B05C30 /* content.js */; };
+		D519A8D72F797DEA00B05C30 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CF2F797DEA00B05C30 /* icon-128.png */; };
+		D519A8D82F797DEA00B05C30 /* redirect-early.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8D02F797DEA00B05C30 /* redirect-early.js */; };
+		D519A8D92F797DEA00B05C30 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8D12F797DEA00B05C30 /* icon-32.png */; };
+		D519A8DA2F797DEA00B05C30 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CA2F797DEA00B05C30 /* icon-16.png */; };
+		D519A8DB2F797DEA00B05C30 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CB2F797DEA00B05C30 /* url-rewriter.js */; };
+		D519A8DC2F797DEA00B05C30 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CC2F797DEA00B05C30 /* icon-48.png */; };
+		D519A8DD2F797DEA00B05C30 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CD2F797DEA00B05C30 /* manifest.json */; };
+		D519A8DE2F797DEA00B05C30 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CE2F797DEA00B05C30 /* content.js */; };
+		D519A8DF2F797DEA00B05C30 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8CF2F797DEA00B05C30 /* icon-128.png */; };
+		D519A8E02F797DEA00B05C30 /* redirect-early.js in Resources */ = {isa = PBXBuildFile; fileRef = D519A8D02F797DEA00B05C30 /* redirect-early.js */; };
+		D519A8E12F797DEA00B05C30 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D519A8D12F797DEA00B05C30 /* icon-32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D58815CE2F7966CB00B47B19 /* PBXContainerItemProxy */ = {
+		D519A89D2F797DEA00B05C30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D588159B2F7966CB00B47B19 /* Project object */;
+			containerPortal = D519A86A2F797DE900B05C30 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D58815CB2F7966CB00B47B19;
+			remoteGlobalIDString = D519A89A2F797DEA00B05C30;
 			remoteInfo = "xcancel Extension (iOS)";
 		};
-		D58815D82F7966CB00B47B19 /* PBXContainerItemProxy */ = {
+		D519A8A72F797DEA00B05C30 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D588159B2F7966CB00B47B19 /* Project object */;
+			containerPortal = D519A86A2F797DE900B05C30 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D58815D52F7966CB00B47B19;
+			remoteGlobalIDString = D519A8A42F797DEA00B05C30;
 			remoteInfo = "xcancel Extension (macOS)";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D58815EF2F7966CB00B47B19 /* Embed Foundation Extensions */ = {
+		D519A8BE2F797DEA00B05C30 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D58815CD2F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */,
+				D519A89C2F797DEA00B05C30 /* xcancel Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815F62F7966CB00B47B19 /* Embed Foundation Extensions */ = {
+		D519A8C52F797DEA00B05C30 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D58815D72F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */,
+				D519A8A62F797DEA00B05C30 /* xcancel Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,60 +90,60 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D58815A22F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
-		D58815A32F7966CB00B47B19 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		D58815A42F7966CB00B47B19 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		D58815A52F7966CB00B47B19 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		D58815A62F7966CB00B47B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D58815A72F7966CB00B47B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		D58815AE2F7966CB00B47B19 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58815B12F7966CB00B47B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D58815B32F7966CB00B47B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D58815B62F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D58815B92F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D58815BB2F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D58815C02F7966CB00B47B19 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58815C22F7966CB00B47B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D58815C52F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D58815C72F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58815D12F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D58815D62F7966CB00B47B19 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D58815DB2F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D58815FB2F7966CB00B47B19 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../../icons/icon-16.png"; sourceTree = "<group>"; };
-		D58815FC2F7966CB00B47B19 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../shared/background.js"; sourceTree = "<group>"; };
-		D58815FD2F7966CB00B47B19 /* url-rewriter.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "url-rewriter.js"; path = "../../../shared/url-rewriter.js"; sourceTree = "<group>"; };
-		D58815FE2F7966CB00B47B19 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../../icons/icon-48.png"; sourceTree = "<group>"; };
-		D58815FF2F7966CB00B47B19 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../shared/manifest.json"; sourceTree = "<group>"; };
-		D58816002F7966CB00B47B19 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../shared/content.js"; sourceTree = "<group>"; };
-		D58816012F7966CB00B47B19 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../icons/icon-128.png"; sourceTree = "<group>"; };
-		D58816022F7966CB00B47B19 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../../icons/icon-32.png"; sourceTree = "<group>"; };
+		D519A8712F797DE900B05C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		D519A8722F797DE900B05C30 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D519A8732F797DE900B05C30 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D519A8742F797DE900B05C30 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D519A8752F797DE900B05C30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D519A8762F797DEA00B05C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D519A8782F797DEA00B05C30 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D519A87D2F797DEA00B05C30 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D519A8802F797DEA00B05C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D519A8822F797DEA00B05C30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D519A8852F797DEA00B05C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D519A8882F797DEA00B05C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D519A88A2F797DEA00B05C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D519A88F2F797DEA00B05C30 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D519A8912F797DEA00B05C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D519A8942F797DEA00B05C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D519A8962F797DEA00B05C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D519A89B2F797DEA00B05C30 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D519A8A02F797DEA00B05C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D519A8A52F797DEA00B05C30 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D519A8AA2F797DEA00B05C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D519A8CA2F797DEA00B05C30 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../../icons/icon-16.png"; sourceTree = "<group>"; };
+		D519A8CB2F797DEA00B05C30 /* url-rewriter.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "url-rewriter.js"; path = "../../../shared/url-rewriter.js"; sourceTree = "<group>"; };
+		D519A8CC2F797DEA00B05C30 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../../icons/icon-48.png"; sourceTree = "<group>"; };
+		D519A8CD2F797DEA00B05C30 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../shared/manifest.json"; sourceTree = "<group>"; };
+		D519A8CE2F797DEA00B05C30 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../shared/content.js"; sourceTree = "<group>"; };
+		D519A8CF2F797DEA00B05C30 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../icons/icon-128.png"; sourceTree = "<group>"; };
+		D519A8D02F797DEA00B05C30 /* redirect-early.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "redirect-early.js"; path = "../../../shared/redirect-early.js"; sourceTree = "<group>"; };
+		D519A8D12F797DEA00B05C30 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../../icons/icon-32.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D58815AB2F7966CB00B47B19 /* Frameworks */ = {
+		D519A87A2F797DEA00B05C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815BD2F7966CB00B47B19 /* Frameworks */ = {
+		D519A88C2F797DEA00B05C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815C92F7966CB00B47B19 /* Frameworks */ = {
+		D519A8982F797DEA00B05C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815D32F7966CB00B47B19 /* Frameworks */ = {
+		D519A8A22F797DEA00B05C30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -153,109 +153,109 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D588159A2F7966CB00B47B19 = {
+		D519A8692F797DE900B05C30 = {
 			isa = PBXGroup;
 			children = (
-				D588159F2F7966CB00B47B19 /* Shared (App) */,
-				D58815A82F7966CB00B47B19 /* Shared (Extension) */,
-				D58815B02F7966CB00B47B19 /* iOS (App) */,
-				D58815C12F7966CB00B47B19 /* macOS (App) */,
-				D58815D02F7966CB00B47B19 /* iOS (Extension) */,
-				D58815DA2F7966CB00B47B19 /* macOS (Extension) */,
-				D58815AF2F7966CB00B47B19 /* Products */,
+				D519A86E2F797DE900B05C30 /* Shared (App) */,
+				D519A8772F797DEA00B05C30 /* Shared (Extension) */,
+				D519A87F2F797DEA00B05C30 /* iOS (App) */,
+				D519A8902F797DEA00B05C30 /* macOS (App) */,
+				D519A89F2F797DEA00B05C30 /* iOS (Extension) */,
+				D519A8A92F797DEA00B05C30 /* macOS (Extension) */,
+				D519A87E2F797DEA00B05C30 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D588159F2F7966CB00B47B19 /* Shared (App) */ = {
+		D519A86E2F797DE900B05C30 /* Shared (App) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815A62F7966CB00B47B19 /* ViewController.swift */,
-				D58815A72F7966CB00B47B19 /* Assets.xcassets */,
-				D58815A02F7966CB00B47B19 /* Resources */,
+				D519A8752F797DE900B05C30 /* ViewController.swift */,
+				D519A8762F797DEA00B05C30 /* Assets.xcassets */,
+				D519A86F2F797DE900B05C30 /* Resources */,
 			);
 			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
-		D58815A02F7966CB00B47B19 /* Resources */ = {
+		D519A86F2F797DE900B05C30 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D58815A12F7966CB00B47B19 /* Main.html */,
-				D58815A32F7966CB00B47B19 /* Icon.png */,
-				D58815A42F7966CB00B47B19 /* Style.css */,
-				D58815A52F7966CB00B47B19 /* Script.js */,
+				D519A8702F797DE900B05C30 /* Main.html */,
+				D519A8722F797DE900B05C30 /* Icon.png */,
+				D519A8732F797DE900B05C30 /* Style.css */,
+				D519A8742F797DE900B05C30 /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		D58815A82F7966CB00B47B19 /* Shared (Extension) */ = {
+		D519A8772F797DEA00B05C30 /* Shared (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815FA2F7966CB00B47B19 /* Resources */,
-				D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */,
+				D519A8C92F797DEA00B05C30 /* Resources */,
+				D519A8782F797DEA00B05C30 /* SafariWebExtensionHandler.swift */,
 			);
 			path = "Shared (Extension)";
 			sourceTree = "<group>";
 		};
-		D58815AF2F7966CB00B47B19 /* Products */ = {
+		D519A87E2F797DEA00B05C30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D58815AE2F7966CB00B47B19 /* xcancel.app */,
-				D58815C02F7966CB00B47B19 /* xcancel.app */,
-				D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */,
-				D58815D62F7966CB00B47B19 /* xcancel Extension.appex */,
+				D519A87D2F797DEA00B05C30 /* xcancel.app */,
+				D519A88F2F797DEA00B05C30 /* xcancel.app */,
+				D519A89B2F797DEA00B05C30 /* xcancel Extension.appex */,
+				D519A8A52F797DEA00B05C30 /* xcancel Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D58815B02F7966CB00B47B19 /* iOS (App) */ = {
+		D519A87F2F797DEA00B05C30 /* iOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815B12F7966CB00B47B19 /* AppDelegate.swift */,
-				D58815B32F7966CB00B47B19 /* SceneDelegate.swift */,
-				D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */,
-				D58815B82F7966CB00B47B19 /* Main.storyboard */,
-				D58815BB2F7966CB00B47B19 /* Info.plist */,
+				D519A8802F797DEA00B05C30 /* AppDelegate.swift */,
+				D519A8822F797DEA00B05C30 /* SceneDelegate.swift */,
+				D519A8842F797DEA00B05C30 /* LaunchScreen.storyboard */,
+				D519A8872F797DEA00B05C30 /* Main.storyboard */,
+				D519A88A2F797DEA00B05C30 /* Info.plist */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
 		};
-		D58815C12F7966CB00B47B19 /* macOS (App) */ = {
+		D519A8902F797DEA00B05C30 /* macOS (App) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815C22F7966CB00B47B19 /* AppDelegate.swift */,
-				D58815C42F7966CB00B47B19 /* Main.storyboard */,
-				D58815C72F7966CB00B47B19 /* Info.plist */,
+				D519A8912F797DEA00B05C30 /* AppDelegate.swift */,
+				D519A8932F797DEA00B05C30 /* Main.storyboard */,
+				D519A8962F797DEA00B05C30 /* Info.plist */,
 			);
 			path = "macOS (App)";
 			sourceTree = "<group>";
 		};
-		D58815D02F7966CB00B47B19 /* iOS (Extension) */ = {
+		D519A89F2F797DEA00B05C30 /* iOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815D12F7966CB00B47B19 /* Info.plist */,
+				D519A8A02F797DEA00B05C30 /* Info.plist */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
 		};
-		D58815DA2F7966CB00B47B19 /* macOS (Extension) */ = {
+		D519A8A92F797DEA00B05C30 /* macOS (Extension) */ = {
 			isa = PBXGroup;
 			children = (
-				D58815DB2F7966CB00B47B19 /* Info.plist */,
+				D519A8AA2F797DEA00B05C30 /* Info.plist */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
-		D58815FA2F7966CB00B47B19 /* Resources */ = {
+		D519A8C92F797DEA00B05C30 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D58815FB2F7966CB00B47B19 /* icon-16.png */,
-				D58815FC2F7966CB00B47B19 /* background.js */,
-				D58815FD2F7966CB00B47B19 /* url-rewriter.js */,
-				D58815FE2F7966CB00B47B19 /* icon-48.png */,
-				D58815FF2F7966CB00B47B19 /* manifest.json */,
-				D58816002F7966CB00B47B19 /* content.js */,
-				D58816012F7966CB00B47B19 /* icon-128.png */,
-				D58816022F7966CB00B47B19 /* icon-32.png */,
+				D519A8CA2F797DEA00B05C30 /* icon-16.png */,
+				D519A8CB2F797DEA00B05C30 /* url-rewriter.js */,
+				D519A8CC2F797DEA00B05C30 /* icon-48.png */,
+				D519A8CD2F797DEA00B05C30 /* manifest.json */,
+				D519A8CE2F797DEA00B05C30 /* content.js */,
+				D519A8CF2F797DEA00B05C30 /* icon-128.png */,
+				D519A8D02F797DEA00B05C30 /* redirect-early.js */,
+				D519A8D12F797DEA00B05C30 /* icon-32.png */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
@@ -264,55 +264,55 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D58815AD2F7966CB00B47B19 /* xcancel (iOS) */ = {
+		D519A87C2F797DEA00B05C30 /* xcancel (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58815F02F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */;
+			buildConfigurationList = D519A8BF2F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */;
 			buildPhases = (
-				D58815AA2F7966CB00B47B19 /* Sources */,
-				D58815AB2F7966CB00B47B19 /* Frameworks */,
-				D58815AC2F7966CB00B47B19 /* Resources */,
-				D58815EF2F7966CB00B47B19 /* Embed Foundation Extensions */,
+				D519A8792F797DEA00B05C30 /* Sources */,
+				D519A87A2F797DEA00B05C30 /* Frameworks */,
+				D519A87B2F797DEA00B05C30 /* Resources */,
+				D519A8BE2F797DEA00B05C30 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D58815CF2F7966CB00B47B19 /* PBXTargetDependency */,
+				D519A89E2F797DEA00B05C30 /* PBXTargetDependency */,
 			);
 			name = "xcancel (iOS)";
 			packageProductDependencies = (
 			);
 			productName = "xcancel (iOS)";
-			productReference = D58815AE2F7966CB00B47B19 /* xcancel.app */;
+			productReference = D519A87D2F797DEA00B05C30 /* xcancel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D58815BF2F7966CB00B47B19 /* xcancel (macOS) */ = {
+		D519A88E2F797DEA00B05C30 /* xcancel (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58815F72F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */;
+			buildConfigurationList = D519A8C62F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */;
 			buildPhases = (
-				D58815BC2F7966CB00B47B19 /* Sources */,
-				D58815BD2F7966CB00B47B19 /* Frameworks */,
-				D58815BE2F7966CB00B47B19 /* Resources */,
-				D58815F62F7966CB00B47B19 /* Embed Foundation Extensions */,
+				D519A88B2F797DEA00B05C30 /* Sources */,
+				D519A88C2F797DEA00B05C30 /* Frameworks */,
+				D519A88D2F797DEA00B05C30 /* Resources */,
+				D519A8C52F797DEA00B05C30 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D58815D92F7966CB00B47B19 /* PBXTargetDependency */,
+				D519A8A82F797DEA00B05C30 /* PBXTargetDependency */,
 			);
 			name = "xcancel (macOS)";
 			packageProductDependencies = (
 			);
 			productName = "xcancel (macOS)";
-			productReference = D58815C02F7966CB00B47B19 /* xcancel.app */;
+			productReference = D519A88F2F797DEA00B05C30 /* xcancel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */ = {
+		D519A89A2F797DEA00B05C30 /* xcancel Extension (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58815EC2F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */;
+			buildConfigurationList = D519A8BB2F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */;
 			buildPhases = (
-				D58815C82F7966CB00B47B19 /* Sources */,
-				D58815C92F7966CB00B47B19 /* Frameworks */,
-				D58815CA2F7966CB00B47B19 /* Resources */,
+				D519A8972F797DEA00B05C30 /* Sources */,
+				D519A8982F797DEA00B05C30 /* Frameworks */,
+				D519A8992F797DEA00B05C30 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -322,16 +322,16 @@
 			packageProductDependencies = (
 			);
 			productName = "xcancel Extension (iOS)";
-			productReference = D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */;
+			productReference = D519A89B2F797DEA00B05C30 /* xcancel Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */ = {
+		D519A8A42F797DEA00B05C30 /* xcancel Extension (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D58815F32F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */;
+			buildConfigurationList = D519A8C22F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */;
 			buildPhases = (
-				D58815D22F7966CB00B47B19 /* Sources */,
-				D58815D32F7966CB00B47B19 /* Frameworks */,
-				D58815D42F7966CB00B47B19 /* Resources */,
+				D519A8A12F797DEA00B05C30 /* Sources */,
+				D519A8A22F797DEA00B05C30 /* Frameworks */,
+				D519A8A32F797DEA00B05C30 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,195 +341,195 @@
 			packageProductDependencies = (
 			);
 			productName = "xcancel Extension (macOS)";
-			productReference = D58815D62F7966CB00B47B19 /* xcancel Extension.appex */;
+			productReference = D519A8A52F797DEA00B05C30 /* xcancel Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D588159B2F7966CB00B47B19 /* Project object */ = {
+		D519A86A2F797DE900B05C30 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2640;
 				TargetAttributes = {
-					D58815AD2F7966CB00B47B19 = {
+					D519A87C2F797DEA00B05C30 = {
 						CreatedOnToolsVersion = 26.4;
 					};
-					D58815BF2F7966CB00B47B19 = {
+					D519A88E2F797DEA00B05C30 = {
 						CreatedOnToolsVersion = 26.4;
 					};
-					D58815CB2F7966CB00B47B19 = {
+					D519A89A2F797DEA00B05C30 = {
 						CreatedOnToolsVersion = 26.4;
 					};
-					D58815D52F7966CB00B47B19 = {
+					D519A8A42F797DEA00B05C30 = {
 						CreatedOnToolsVersion = 26.4;
 					};
 				};
 			};
-			buildConfigurationList = D588159E2F7966CB00B47B19 /* Build configuration list for PBXProject "xcancel" */;
+			buildConfigurationList = D519A86D2F797DE900B05C30 /* Build configuration list for PBXProject "xcancel" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D588159A2F7966CB00B47B19;
+			mainGroup = D519A8692F797DE900B05C30;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D58815AF2F7966CB00B47B19 /* Products */;
+			productRefGroup = D519A87E2F797DEA00B05C30 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D58815AD2F7966CB00B47B19 /* xcancel (iOS) */,
-				D58815BF2F7966CB00B47B19 /* xcancel (macOS) */,
-				D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */,
-				D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */,
+				D519A87C2F797DEA00B05C30 /* xcancel (iOS) */,
+				D519A88E2F797DEA00B05C30 /* xcancel (macOS) */,
+				D519A89A2F797DEA00B05C30 /* xcancel Extension (iOS) */,
+				D519A8A42F797DEA00B05C30 /* xcancel Extension (macOS) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D58815AC2F7966CB00B47B19 /* Resources */ = {
+		D519A87B2F797DEA00B05C30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815DE2F7966CB00B47B19 /* Icon.png in Resources */,
-				D58815B72F7966CB00B47B19 /* LaunchScreen.storyboard in Resources */,
-				D58815DC2F7966CB00B47B19 /* Main.html in Resources */,
-				D58815E22F7966CB00B47B19 /* Script.js in Resources */,
-				D58815E62F7966CB00B47B19 /* Assets.xcassets in Resources */,
-				D58815BA2F7966CB00B47B19 /* Main.storyboard in Resources */,
-				D58815E02F7966CB00B47B19 /* Style.css in Resources */,
+				D519A8AD2F797DEA00B05C30 /* Icon.png in Resources */,
+				D519A8862F797DEA00B05C30 /* LaunchScreen.storyboard in Resources */,
+				D519A8AB2F797DEA00B05C30 /* Main.html in Resources */,
+				D519A8B12F797DEA00B05C30 /* Script.js in Resources */,
+				D519A8B52F797DEA00B05C30 /* Assets.xcassets in Resources */,
+				D519A8892F797DEA00B05C30 /* Main.storyboard in Resources */,
+				D519A8AF2F797DEA00B05C30 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815BE2F7966CB00B47B19 /* Resources */ = {
+		D519A88D2F797DEA00B05C30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815DF2F7966CB00B47B19 /* Icon.png in Resources */,
-				D58815E12F7966CB00B47B19 /* Style.css in Resources */,
-				D58815C62F7966CB00B47B19 /* Main.storyboard in Resources */,
-				D58815E32F7966CB00B47B19 /* Script.js in Resources */,
-				D58815E72F7966CB00B47B19 /* Assets.xcassets in Resources */,
-				D58815DD2F7966CB00B47B19 /* Main.html in Resources */,
+				D519A8AE2F797DEA00B05C30 /* Icon.png in Resources */,
+				D519A8B02F797DEA00B05C30 /* Style.css in Resources */,
+				D519A8952F797DEA00B05C30 /* Main.storyboard in Resources */,
+				D519A8B22F797DEA00B05C30 /* Script.js in Resources */,
+				D519A8B62F797DEA00B05C30 /* Assets.xcassets in Resources */,
+				D519A8AC2F797DEA00B05C30 /* Main.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815CA2F7966CB00B47B19 /* Resources */ = {
+		D519A8992F797DEA00B05C30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58816102F7966CB00B47B19 /* content.js in Resources */,
-				D58816122F7966CB00B47B19 /* icon-32.png in Resources */,
-				D588160E2F7966CB00B47B19 /* icon-48.png in Resources */,
-				D588160C2F7966CB00B47B19 /* background.js in Resources */,
-				D588160F2F7966CB00B47B19 /* manifest.json in Resources */,
-				D58816112F7966CB00B47B19 /* icon-128.png in Resources */,
-				D588160B2F7966CB00B47B19 /* icon-16.png in Resources */,
-				D588160D2F7966CB00B47B19 /* url-rewriter.js in Resources */,
+				D519A8DD2F797DEA00B05C30 /* manifest.json in Resources */,
+				D519A8E12F797DEA00B05C30 /* icon-32.png in Resources */,
+				D519A8DB2F797DEA00B05C30 /* url-rewriter.js in Resources */,
+				D519A8DF2F797DEA00B05C30 /* icon-128.png in Resources */,
+				D519A8DA2F797DEA00B05C30 /* icon-16.png in Resources */,
+				D519A8E02F797DEA00B05C30 /* redirect-early.js in Resources */,
+				D519A8DC2F797DEA00B05C30 /* icon-48.png in Resources */,
+				D519A8DE2F797DEA00B05C30 /* content.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815D42F7966CB00B47B19 /* Resources */ = {
+		D519A8A32F797DEA00B05C30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58816082F7966CB00B47B19 /* content.js in Resources */,
-				D588160A2F7966CB00B47B19 /* icon-32.png in Resources */,
-				D58816062F7966CB00B47B19 /* icon-48.png in Resources */,
-				D58816042F7966CB00B47B19 /* background.js in Resources */,
-				D58816072F7966CB00B47B19 /* manifest.json in Resources */,
-				D58816092F7966CB00B47B19 /* icon-128.png in Resources */,
-				D58816032F7966CB00B47B19 /* icon-16.png in Resources */,
-				D58816052F7966CB00B47B19 /* url-rewriter.js in Resources */,
+				D519A8D52F797DEA00B05C30 /* manifest.json in Resources */,
+				D519A8D92F797DEA00B05C30 /* icon-32.png in Resources */,
+				D519A8D32F797DEA00B05C30 /* url-rewriter.js in Resources */,
+				D519A8D72F797DEA00B05C30 /* icon-128.png in Resources */,
+				D519A8D22F797DEA00B05C30 /* icon-16.png in Resources */,
+				D519A8D82F797DEA00B05C30 /* redirect-early.js in Resources */,
+				D519A8D42F797DEA00B05C30 /* icon-48.png in Resources */,
+				D519A8D62F797DEA00B05C30 /* content.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D58815AA2F7966CB00B47B19 /* Sources */ = {
+		D519A8792F797DEA00B05C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815E42F7966CB00B47B19 /* ViewController.swift in Sources */,
-				D58815B22F7966CB00B47B19 /* AppDelegate.swift in Sources */,
-				D58815B42F7966CB00B47B19 /* SceneDelegate.swift in Sources */,
+				D519A8B32F797DEA00B05C30 /* ViewController.swift in Sources */,
+				D519A8812F797DEA00B05C30 /* AppDelegate.swift in Sources */,
+				D519A8832F797DEA00B05C30 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815BC2F7966CB00B47B19 /* Sources */ = {
+		D519A88B2F797DEA00B05C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815E52F7966CB00B47B19 /* ViewController.swift in Sources */,
-				D58815C32F7966CB00B47B19 /* AppDelegate.swift in Sources */,
+				D519A8B42F797DEA00B05C30 /* ViewController.swift in Sources */,
+				D519A8922F797DEA00B05C30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815C82F7966CB00B47B19 /* Sources */ = {
+		D519A8972F797DEA00B05C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815E82F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */,
+				D519A8B72F797DEA00B05C30 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58815D22F7966CB00B47B19 /* Sources */ = {
+		D519A8A12F797DEA00B05C30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D58815E92F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */,
+				D519A8B82F797DEA00B05C30 /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D58815CF2F7966CB00B47B19 /* PBXTargetDependency */ = {
+		D519A89E2F797DEA00B05C30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */;
-			targetProxy = D58815CE2F7966CB00B47B19 /* PBXContainerItemProxy */;
+			target = D519A89A2F797DEA00B05C30 /* xcancel Extension (iOS) */;
+			targetProxy = D519A89D2F797DEA00B05C30 /* PBXContainerItemProxy */;
 		};
-		D58815D92F7966CB00B47B19 /* PBXTargetDependency */ = {
+		D519A8A82F797DEA00B05C30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */;
-			targetProxy = D58815D82F7966CB00B47B19 /* PBXContainerItemProxy */;
+			target = D519A8A42F797DEA00B05C30 /* xcancel Extension (macOS) */;
+			targetProxy = D519A8A72F797DEA00B05C30 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D58815A12F7966CB00B47B19 /* Main.html */ = {
+		D519A8702F797DE900B05C30 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D58815A22F7966CB00B47B19 /* Base */,
+				D519A8712F797DE900B05C30 /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */ = {
+		D519A8842F797DEA00B05C30 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D58815B62F7966CB00B47B19 /* Base */,
+				D519A8852F797DEA00B05C30 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D58815B82F7966CB00B47B19 /* Main.storyboard */ = {
+		D519A8872F797DEA00B05C30 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D58815B92F7966CB00B47B19 /* Base */,
+				D519A8882F797DEA00B05C30 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D58815C42F7966CB00B47B19 /* Main.storyboard */ = {
+		D519A8932F797DEA00B05C30 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D58815C52F7966CB00B47B19 /* Base */,
+				D519A8942F797DEA00B05C30 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -537,7 +537,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D58815EA2F7966CB00B47B19 /* Debug */ = {
+		D519A8B92F797DEA00B05C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -598,7 +598,7 @@
 			};
 			name = Debug;
 		};
-		D58815EB2F7966CB00B47B19 /* Release */ = {
+		D519A8BA2F797DEA00B05C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -651,7 +651,7 @@
 			};
 			name = Release;
 		};
-		D58815ED2F7966CB00B47B19 /* Debug */ = {
+		D519A8BC2F797DEA00B05C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -684,7 +684,7 @@
 			};
 			name = Debug;
 		};
-		D58815EE2F7966CB00B47B19 /* Release */ = {
+		D519A8BD2F797DEA00B05C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -718,7 +718,7 @@
 			};
 			name = Release;
 		};
-		D58815F12F7966CB00B47B19 /* Debug */ = {
+		D519A8C02F797DEA00B05C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -758,7 +758,7 @@
 			};
 			name = Debug;
 		};
-		D58815F22F7966CB00B47B19 /* Release */ = {
+		D519A8C12F797DEA00B05C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -799,7 +799,7 @@
 			};
 			name = Release;
 		};
-		D58815F42F7966CB00B47B19 /* Debug */ = {
+		D519A8C32F797DEA00B05C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -834,7 +834,7 @@
 			};
 			name = Debug;
 		};
-		D58815F52F7966CB00B47B19 /* Release */ = {
+		D519A8C42F797DEA00B05C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -869,7 +869,7 @@
 			};
 			name = Release;
 		};
-		D58815F82F7966CB00B47B19 /* Debug */ = {
+		D519A8C72F797DEA00B05C30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -910,7 +910,7 @@
 			};
 			name = Debug;
 		};
-		D58815F92F7966CB00B47B19 /* Release */ = {
+		D519A8C82F797DEA00B05C30 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -954,52 +954,52 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D588159E2F7966CB00B47B19 /* Build configuration list for PBXProject "xcancel" */ = {
+		D519A86D2F797DE900B05C30 /* Build configuration list for PBXProject "xcancel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D58815EA2F7966CB00B47B19 /* Debug */,
-				D58815EB2F7966CB00B47B19 /* Release */,
+				D519A8B92F797DEA00B05C30 /* Debug */,
+				D519A8BA2F797DEA00B05C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58815EC2F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */ = {
+		D519A8BB2F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D58815ED2F7966CB00B47B19 /* Debug */,
-				D58815EE2F7966CB00B47B19 /* Release */,
+				D519A8BC2F797DEA00B05C30 /* Debug */,
+				D519A8BD2F797DEA00B05C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58815F02F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */ = {
+		D519A8BF2F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D58815F12F7966CB00B47B19 /* Debug */,
-				D58815F22F7966CB00B47B19 /* Release */,
+				D519A8C02F797DEA00B05C30 /* Debug */,
+				D519A8C12F797DEA00B05C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58815F32F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */ = {
+		D519A8C22F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D58815F42F7966CB00B47B19 /* Debug */,
-				D58815F52F7966CB00B47B19 /* Release */,
+				D519A8C32F797DEA00B05C30 /* Debug */,
+				D519A8C42F797DEA00B05C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D58815F72F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */ = {
+		D519A8C62F797DEA00B05C30 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D58815F82F7966CB00B47B19 /* Debug */,
-				D58815F92F7966CB00B47B19 /* Release */,
+				D519A8C72F797DEA00B05C30 /* Debug */,
+				D519A8C82F797DEA00B05C30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D588159B2F7966CB00B47B19 /* Project object */;
+	rootObject = D519A86A2F797DE900B05C30 /* Project object */;
 }

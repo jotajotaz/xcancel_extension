@@ -3,17 +3,17 @@
   "name": "xcancel – Redirect X to xcancel",
   "version": "1.0.0",
   "description": "Automatically redirects x.com and twitter.com links to xcancel.com (except articles).",
-  "permissions": [
-    "declarativeNetRequest"
-  ],
+  "permissions": [],
   "host_permissions": [
     "*://*.x.com/*",
     "*://*.twitter.com/*"
   ],
-  "background": {
-    "service_worker": "background.js"
-  },
   "content_scripts": [
+    {
+      "matches": ["*://*.x.com/*", "*://*.twitter.com/*"],
+      "js": ["redirect-early.js"],
+      "run_at": "document_start"
+    },
     {
       "matches": ["<all_urls>"],
       "js": ["url-rewriter.js", "content.js"],
