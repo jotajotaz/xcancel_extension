@@ -18,6 +18,33 @@ The extension will appear as **xcancel – Redirect X to xcancel**.
 
 After pulling new changes, go to `chrome://extensions` and click the reload button on the extension card.
 
+## Install on Safari (macOS)
+
+Requires Xcode (free from the App Store).
+
+1. Download or clone this repository
+2. Open `safari/xcancel/xcancel.xcodeproj` in Xcode
+3. Select the **xcancel (macOS)** scheme in the top bar (next to the Play button)
+4. Click Play (or Cmd+R) to build and run
+5. A window will appear saying the extension is off — click **Quit and Open Safari Settings**
+6. In Safari: **Settings → Advanced** → enable **Show features for web developers**
+7. In the menu bar: **Develop → Allow unsigned extensions** (enter your password)
+8. Go to **Safari → Settings → Extensions** → enable **xcancel**
+
+Note: "Allow unsigned extensions" resets every time you restart Safari, so you'll need to re-enable it after each reboot.
+
+## Install on Safari (iOS)
+
+Requires Xcode and a USB cable connected to your iPhone.
+
+1. Connect your iPhone to your Mac
+2. On the iPhone: **Settings → Privacy & Security → Developer Mode** → turn on
+3. Open `safari/xcancel/xcancel.xcodeproj` in Xcode
+4. Select the **xcancel (iOS)** scheme and your iPhone as the destination
+5. In Xcode, go to **Signing & Capabilities** for both the app and extension targets → select your Apple ID as the signing team
+6. Click Play (or Cmd+R) to build and install on your device
+7. On the iPhone: **Settings → Safari → Extensions** → enable **xcancel**
+
 ## How it works
 
 Three redirect layers ensure x.com never loads:
