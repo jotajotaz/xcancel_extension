@@ -1,0 +1,13 @@
+{
+  "name": "xcancel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser extension to redirect x.com links to xcancel.com",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

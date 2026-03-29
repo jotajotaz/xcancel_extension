@@ -1,0 +1,1005 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D58815B22F7966CB00B47B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815B12F7966CB00B47B19 /* AppDelegate.swift */; };
+		D58815B42F7966CB00B47B19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815B32F7966CB00B47B19 /* SceneDelegate.swift */; };
+		D58815B72F7966CB00B47B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */; };
+		D58815BA2F7966CB00B47B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815B82F7966CB00B47B19 /* Main.storyboard */; };
+		D58815C32F7966CB00B47B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815C22F7966CB00B47B19 /* AppDelegate.swift */; };
+		D58815C62F7966CB00B47B19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D58815C42F7966CB00B47B19 /* Main.storyboard */; };
+		D58815CD2F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D58815D72F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D58815D62F7966CB00B47B19 /* xcancel Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D58815DC2F7966CB00B47B19 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D58815A12F7966CB00B47B19 /* Main.html */; };
+		D58815DD2F7966CB00B47B19 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = D58815A12F7966CB00B47B19 /* Main.html */; };
+		D58815DE2F7966CB00B47B19 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815A32F7966CB00B47B19 /* Icon.png */; };
+		D58815DF2F7966CB00B47B19 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815A32F7966CB00B47B19 /* Icon.png */; };
+		D58815E02F7966CB00B47B19 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D58815A42F7966CB00B47B19 /* Style.css */; };
+		D58815E12F7966CB00B47B19 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = D58815A42F7966CB00B47B19 /* Style.css */; };
+		D58815E22F7966CB00B47B19 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815A52F7966CB00B47B19 /* Script.js */; };
+		D58815E32F7966CB00B47B19 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815A52F7966CB00B47B19 /* Script.js */; };
+		D58815E42F7966CB00B47B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A62F7966CB00B47B19 /* ViewController.swift */; };
+		D58815E52F7966CB00B47B19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A62F7966CB00B47B19 /* ViewController.swift */; };
+		D58815E62F7966CB00B47B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58815A72F7966CB00B47B19 /* Assets.xcassets */; };
+		D58815E72F7966CB00B47B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D58815A72F7966CB00B47B19 /* Assets.xcassets */; };
+		D58815E82F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */; };
+		D58815E92F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */; };
+		D58816032F7966CB00B47B19 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FB2F7966CB00B47B19 /* icon-16.png */; };
+		D58816042F7966CB00B47B19 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FC2F7966CB00B47B19 /* background.js */; };
+		D58816052F7966CB00B47B19 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FD2F7966CB00B47B19 /* url-rewriter.js */; };
+		D58816062F7966CB00B47B19 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FE2F7966CB00B47B19 /* icon-48.png */; };
+		D58816072F7966CB00B47B19 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D58815FF2F7966CB00B47B19 /* manifest.json */; };
+		D58816082F7966CB00B47B19 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D58816002F7966CB00B47B19 /* content.js */; };
+		D58816092F7966CB00B47B19 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816012F7966CB00B47B19 /* icon-128.png */; };
+		D588160A2F7966CB00B47B19 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816022F7966CB00B47B19 /* icon-32.png */; };
+		D588160B2F7966CB00B47B19 /* icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FB2F7966CB00B47B19 /* icon-16.png */; };
+		D588160C2F7966CB00B47B19 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FC2F7966CB00B47B19 /* background.js */; };
+		D588160D2F7966CB00B47B19 /* url-rewriter.js in Resources */ = {isa = PBXBuildFile; fileRef = D58815FD2F7966CB00B47B19 /* url-rewriter.js */; };
+		D588160E2F7966CB00B47B19 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = D58815FE2F7966CB00B47B19 /* icon-48.png */; };
+		D588160F2F7966CB00B47B19 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = D58815FF2F7966CB00B47B19 /* manifest.json */; };
+		D58816102F7966CB00B47B19 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = D58816002F7966CB00B47B19 /* content.js */; };
+		D58816112F7966CB00B47B19 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816012F7966CB00B47B19 /* icon-128.png */; };
+		D58816122F7966CB00B47B19 /* icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = D58816022F7966CB00B47B19 /* icon-32.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D58815CE2F7966CB00B47B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D588159B2F7966CB00B47B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58815CB2F7966CB00B47B19;
+			remoteInfo = "xcancel Extension (iOS)";
+		};
+		D58815D82F7966CB00B47B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D588159B2F7966CB00B47B19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D58815D52F7966CB00B47B19;
+			remoteInfo = "xcancel Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D58815EF2F7966CB00B47B19 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D58815CD2F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815F62F7966CB00B47B19 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D58815D72F7966CB00B47B19 /* xcancel Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D58815A22F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		D58815A32F7966CB00B47B19 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		D58815A42F7966CB00B47B19 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		D58815A52F7966CB00B47B19 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		D58815A62F7966CB00B47B19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D58815A72F7966CB00B47B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		D58815AE2F7966CB00B47B19 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58815B12F7966CB00B47B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D58815B32F7966CB00B47B19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D58815B62F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D58815B92F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58815BB2F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58815C02F7966CB00B47B19 /* xcancel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcancel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58815C22F7966CB00B47B19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D58815C52F7966CB00B47B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D58815C72F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58815D12F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58815D62F7966CB00B47B19 /* xcancel Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "xcancel Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D58815DB2F7966CB00B47B19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D58815FB2F7966CB00B47B19 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../../icons/icon-16.png"; sourceTree = "<group>"; };
+		D58815FC2F7966CB00B47B19 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../../shared/background.js"; sourceTree = "<group>"; };
+		D58815FD2F7966CB00B47B19 /* url-rewriter.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "url-rewriter.js"; path = "../../../shared/url-rewriter.js"; sourceTree = "<group>"; };
+		D58815FE2F7966CB00B47B19 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../../icons/icon-48.png"; sourceTree = "<group>"; };
+		D58815FF2F7966CB00B47B19 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../shared/manifest.json"; sourceTree = "<group>"; };
+		D58816002F7966CB00B47B19 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../shared/content.js"; sourceTree = "<group>"; };
+		D58816012F7966CB00B47B19 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../icons/icon-128.png"; sourceTree = "<group>"; };
+		D58816022F7966CB00B47B19 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../../icons/icon-32.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D58815AB2F7966CB00B47B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815BD2F7966CB00B47B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815C92F7966CB00B47B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815D32F7966CB00B47B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D588159A2F7966CB00B47B19 = {
+			isa = PBXGroup;
+			children = (
+				D588159F2F7966CB00B47B19 /* Shared (App) */,
+				D58815A82F7966CB00B47B19 /* Shared (Extension) */,
+				D58815B02F7966CB00B47B19 /* iOS (App) */,
+				D58815C12F7966CB00B47B19 /* macOS (App) */,
+				D58815D02F7966CB00B47B19 /* iOS (Extension) */,
+				D58815DA2F7966CB00B47B19 /* macOS (Extension) */,
+				D58815AF2F7966CB00B47B19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D588159F2F7966CB00B47B19 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815A62F7966CB00B47B19 /* ViewController.swift */,
+				D58815A72F7966CB00B47B19 /* Assets.xcassets */,
+				D58815A02F7966CB00B47B19 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		D58815A02F7966CB00B47B19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D58815A12F7966CB00B47B19 /* Main.html */,
+				D58815A32F7966CB00B47B19 /* Icon.png */,
+				D58815A42F7966CB00B47B19 /* Style.css */,
+				D58815A52F7966CB00B47B19 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D58815A82F7966CB00B47B19 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815FA2F7966CB00B47B19 /* Resources */,
+				D58815A92F7966CB00B47B19 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		D58815AF2F7966CB00B47B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D58815AE2F7966CB00B47B19 /* xcancel.app */,
+				D58815C02F7966CB00B47B19 /* xcancel.app */,
+				D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */,
+				D58815D62F7966CB00B47B19 /* xcancel Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D58815B02F7966CB00B47B19 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815B12F7966CB00B47B19 /* AppDelegate.swift */,
+				D58815B32F7966CB00B47B19 /* SceneDelegate.swift */,
+				D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */,
+				D58815B82F7966CB00B47B19 /* Main.storyboard */,
+				D58815BB2F7966CB00B47B19 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		D58815C12F7966CB00B47B19 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815C22F7966CB00B47B19 /* AppDelegate.swift */,
+				D58815C42F7966CB00B47B19 /* Main.storyboard */,
+				D58815C72F7966CB00B47B19 /* Info.plist */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		D58815D02F7966CB00B47B19 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815D12F7966CB00B47B19 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D58815DA2F7966CB00B47B19 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				D58815DB2F7966CB00B47B19 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		D58815FA2F7966CB00B47B19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D58815FB2F7966CB00B47B19 /* icon-16.png */,
+				D58815FC2F7966CB00B47B19 /* background.js */,
+				D58815FD2F7966CB00B47B19 /* url-rewriter.js */,
+				D58815FE2F7966CB00B47B19 /* icon-48.png */,
+				D58815FF2F7966CB00B47B19 /* manifest.json */,
+				D58816002F7966CB00B47B19 /* content.js */,
+				D58816012F7966CB00B47B19 /* icon-128.png */,
+				D58816022F7966CB00B47B19 /* icon-32.png */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D58815AD2F7966CB00B47B19 /* xcancel (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58815F02F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */;
+			buildPhases = (
+				D58815AA2F7966CB00B47B19 /* Sources */,
+				D58815AB2F7966CB00B47B19 /* Frameworks */,
+				D58815AC2F7966CB00B47B19 /* Resources */,
+				D58815EF2F7966CB00B47B19 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58815CF2F7966CB00B47B19 /* PBXTargetDependency */,
+			);
+			name = "xcancel (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "xcancel (iOS)";
+			productReference = D58815AE2F7966CB00B47B19 /* xcancel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58815BF2F7966CB00B47B19 /* xcancel (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58815F72F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */;
+			buildPhases = (
+				D58815BC2F7966CB00B47B19 /* Sources */,
+				D58815BD2F7966CB00B47B19 /* Frameworks */,
+				D58815BE2F7966CB00B47B19 /* Resources */,
+				D58815F62F7966CB00B47B19 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D58815D92F7966CB00B47B19 /* PBXTargetDependency */,
+			);
+			name = "xcancel (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "xcancel (macOS)";
+			productReference = D58815C02F7966CB00B47B19 /* xcancel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58815EC2F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */;
+			buildPhases = (
+				D58815C82F7966CB00B47B19 /* Sources */,
+				D58815C92F7966CB00B47B19 /* Frameworks */,
+				D58815CA2F7966CB00B47B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xcancel Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "xcancel Extension (iOS)";
+			productReference = D58815CC2F7966CB00B47B19 /* xcancel Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D58815F32F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */;
+			buildPhases = (
+				D58815D22F7966CB00B47B19 /* Sources */,
+				D58815D32F7966CB00B47B19 /* Frameworks */,
+				D58815D42F7966CB00B47B19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "xcancel Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "xcancel Extension (macOS)";
+			productReference = D58815D62F7966CB00B47B19 /* xcancel Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D588159B2F7966CB00B47B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					D58815AD2F7966CB00B47B19 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					D58815BF2F7966CB00B47B19 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					D58815CB2F7966CB00B47B19 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+					D58815D52F7966CB00B47B19 = {
+						CreatedOnToolsVersion = 26.4;
+					};
+				};
+			};
+			buildConfigurationList = D588159E2F7966CB00B47B19 /* Build configuration list for PBXProject "xcancel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D588159A2F7966CB00B47B19;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D58815AF2F7966CB00B47B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D58815AD2F7966CB00B47B19 /* xcancel (iOS) */,
+				D58815BF2F7966CB00B47B19 /* xcancel (macOS) */,
+				D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */,
+				D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D58815AC2F7966CB00B47B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815DE2F7966CB00B47B19 /* Icon.png in Resources */,
+				D58815B72F7966CB00B47B19 /* LaunchScreen.storyboard in Resources */,
+				D58815DC2F7966CB00B47B19 /* Main.html in Resources */,
+				D58815E22F7966CB00B47B19 /* Script.js in Resources */,
+				D58815E62F7966CB00B47B19 /* Assets.xcassets in Resources */,
+				D58815BA2F7966CB00B47B19 /* Main.storyboard in Resources */,
+				D58815E02F7966CB00B47B19 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815BE2F7966CB00B47B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815DF2F7966CB00B47B19 /* Icon.png in Resources */,
+				D58815E12F7966CB00B47B19 /* Style.css in Resources */,
+				D58815C62F7966CB00B47B19 /* Main.storyboard in Resources */,
+				D58815E32F7966CB00B47B19 /* Script.js in Resources */,
+				D58815E72F7966CB00B47B19 /* Assets.xcassets in Resources */,
+				D58815DD2F7966CB00B47B19 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815CA2F7966CB00B47B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58816102F7966CB00B47B19 /* content.js in Resources */,
+				D58816122F7966CB00B47B19 /* icon-32.png in Resources */,
+				D588160E2F7966CB00B47B19 /* icon-48.png in Resources */,
+				D588160C2F7966CB00B47B19 /* background.js in Resources */,
+				D588160F2F7966CB00B47B19 /* manifest.json in Resources */,
+				D58816112F7966CB00B47B19 /* icon-128.png in Resources */,
+				D588160B2F7966CB00B47B19 /* icon-16.png in Resources */,
+				D588160D2F7966CB00B47B19 /* url-rewriter.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815D42F7966CB00B47B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58816082F7966CB00B47B19 /* content.js in Resources */,
+				D588160A2F7966CB00B47B19 /* icon-32.png in Resources */,
+				D58816062F7966CB00B47B19 /* icon-48.png in Resources */,
+				D58816042F7966CB00B47B19 /* background.js in Resources */,
+				D58816072F7966CB00B47B19 /* manifest.json in Resources */,
+				D58816092F7966CB00B47B19 /* icon-128.png in Resources */,
+				D58816032F7966CB00B47B19 /* icon-16.png in Resources */,
+				D58816052F7966CB00B47B19 /* url-rewriter.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D58815AA2F7966CB00B47B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815E42F7966CB00B47B19 /* ViewController.swift in Sources */,
+				D58815B22F7966CB00B47B19 /* AppDelegate.swift in Sources */,
+				D58815B42F7966CB00B47B19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815BC2F7966CB00B47B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815E52F7966CB00B47B19 /* ViewController.swift in Sources */,
+				D58815C32F7966CB00B47B19 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815C82F7966CB00B47B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815E82F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58815D22F7966CB00B47B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D58815E92F7966CB00B47B19 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D58815CF2F7966CB00B47B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58815CB2F7966CB00B47B19 /* xcancel Extension (iOS) */;
+			targetProxy = D58815CE2F7966CB00B47B19 /* PBXContainerItemProxy */;
+		};
+		D58815D92F7966CB00B47B19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D58815D52F7966CB00B47B19 /* xcancel Extension (macOS) */;
+			targetProxy = D58815D82F7966CB00B47B19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D58815A12F7966CB00B47B19 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58815A22F7966CB00B47B19 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		D58815B52F7966CB00B47B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58815B62F7966CB00B47B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D58815B82F7966CB00B47B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58815B92F7966CB00B47B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D58815C42F7966CB00B47B19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D58815C52F7966CB00B47B19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D58815EA2F7966CB00B47B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D58815EB2F7966CB00B47B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D58815ED2F7966CB00B47B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel.Extension;
+				PRODUCT_NAME = "xcancel Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D58815EE2F7966CB00B47B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel.Extension;
+				PRODUCT_NAME = "xcancel Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58815F12F7966CB00B47B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel;
+				PRODUCT_NAME = xcancel;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D58815F22F7966CB00B47B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel;
+				PRODUCT_NAME = xcancel;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D58815F42F7966CB00B47B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel.Extension;
+				PRODUCT_NAME = "xcancel Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D58815F52F7966CB00B47B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel.Extension;
+				PRODUCT_NAME = "xcancel Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D58815F82F7966CB00B47B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel;
+				PRODUCT_NAME = xcancel;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D58815F92F7966CB00B47B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jotajotaz.xcancel;
+				PRODUCT_NAME = xcancel;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D588159E2F7966CB00B47B19 /* Build configuration list for PBXProject "xcancel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58815EA2F7966CB00B47B19 /* Debug */,
+				D58815EB2F7966CB00B47B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58815EC2F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58815ED2F7966CB00B47B19 /* Debug */,
+				D58815EE2F7966CB00B47B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58815F02F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58815F12F7966CB00B47B19 /* Debug */,
+				D58815F22F7966CB00B47B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58815F32F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58815F42F7966CB00B47B19 /* Debug */,
+				D58815F52F7966CB00B47B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D58815F72F7966CB00B47B19 /* Build configuration list for PBXNativeTarget "xcancel (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D58815F82F7966CB00B47B19 /* Debug */,
+				D58815F92F7966CB00B47B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D588159B2F7966CB00B47B19 /* Project object */;
+}
