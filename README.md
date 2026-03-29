@@ -65,6 +65,10 @@ Links on other websites (e.g. someone shares an x.com link on Reddit) are rewrit
 | `x.com/i/article/123` | **No** (articles not supported by xcancel) |
 | `x.com/user/article/456` | **No** |
 
+## Contributing
+
+This is a vibe-coded project. Pull requests are not accepted, but forks are welcome.
+
 ## Development
 
 ```bash
