@@ -114,8 +114,8 @@
 		D519A8CA2F797DEA00B05C30 /* icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-16.png"; path = "../../../icons/icon-16.png"; sourceTree = "<group>"; };
 		D519A8CB2F797DEA00B05C30 /* url-rewriter.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "url-rewriter.js"; path = "../../../shared/url-rewriter.js"; sourceTree = "<group>"; };
 		D519A8CC2F797DEA00B05C30 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-48.png"; path = "../../../icons/icon-48.png"; sourceTree = "<group>"; };
-		D519A8CD2F797DEA00B05C30 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../../shared/manifest.json"; sourceTree = "<group>"; };
-		D519A8CE2F797DEA00B05C30 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../../shared/content.js"; sourceTree = "<group>"; };
+		D519A8CD2F797DEA00B05C30 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../../shared/manifest.json; sourceTree = "<group>"; };
+		D519A8CE2F797DEA00B05C30 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../../shared/content.js; sourceTree = "<group>"; };
 		D519A8CF2F797DEA00B05C30 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-128.png"; path = "../../../icons/icon-128.png"; sourceTree = "<group>"; };
 		D519A8D02F797DEA00B05C30 /* redirect-early.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "redirect-early.js"; path = "../../../shared/redirect-early.js"; sourceTree = "<group>"; };
 		D519A8D12F797DEA00B05C30 /* icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-32.png"; path = "../../../icons/icon-32.png"; sourceTree = "<group>"; };
@@ -656,6 +656,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC76JJLJU4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
@@ -689,6 +690,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC76JJLJU4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "xcancel Extension";
@@ -725,6 +727,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC76JJLJU4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
@@ -765,6 +768,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PC76JJLJU4;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = xcancel;
